@@ -1,6 +1,6 @@
 package thuchanh1819.buoi2;
 
-public class SDDiem {
+public class UseDiem {
 	public static void main(String[] args) {
 		Diem A = new Diem(3,4);
 		A.hienThi();
