@@ -1,5 +1,5 @@
 # Maven and Eclipse files
-target/
+# target/
 .settings/
 .project
 .classpath
