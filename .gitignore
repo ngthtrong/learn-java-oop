@@ -1,0 +1,14 @@
+# Maven and Eclipse files
+target/
+.settings/
+.project
+.classpath
+
+# IDE directories
+.idea/
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+.vscode/
