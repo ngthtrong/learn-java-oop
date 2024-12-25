@@ -19,7 +19,7 @@ public class bai3 {
 			System.out.println("Not have number");
 			return;
 		}
-		double max = list.getFirst();
+		double max = list.get(0);
 		double total = 0.0;
 		for (Double double1 : list) {
 			if (max < double1)

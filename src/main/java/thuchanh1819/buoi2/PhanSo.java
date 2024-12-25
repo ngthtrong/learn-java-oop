@@ -53,6 +53,7 @@ public class PhanSo {
 			return;
 		}
 		System.out.println(this.TuSo + "/" + this.MauSo);
+		System.out.println(this.TuSo + "/" + this.MauSo);
 
 	}
 
