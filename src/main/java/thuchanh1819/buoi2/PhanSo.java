@@ -44,8 +44,7 @@ public class PhanSo {
 		MauSo = mauSo;
 	}
 
-	public void nhapPhanSo() {
-		Scanner scan = new Scanner(System.in);
+	public void nhapPhanSo(Scanner scan) {
 		System.out.print("Nhap tu so: ");
 		if (scan.hasNextInt())
 			this.TuSo = scan.nextInt();
@@ -55,7 +54,6 @@ public class PhanSo {
 			this.MauSo = scan.nextInt();
 			if (this.MauSo == 0)
 				System.out.println("Vui long nhap mau so khac 0!");
-
 		}
 		this.chuanHoa();
 	}

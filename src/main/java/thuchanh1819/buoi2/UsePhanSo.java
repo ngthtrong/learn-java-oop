@@ -13,18 +13,18 @@ public class UsePhanSo {
 
 		PhanSo x = new PhanSo();
 		PhanSo y = new PhanSo();
-		x.nhapPhanSo();
-		y.nhapPhanSo();
+
+		Scanner scan = new Scanner(System.in);
+		x.nhapPhanSo(scan);
+		y.nhapPhanSo(scan);
+
 		x.hienThiPhanSo();
 		y.hienThiPhanSo();
-		
-		
-		
+
 		x.giaTriNghichDao().hienThiPhanSo();
 
 		x.cong(y).hienThiPhanSo();
 
-		Scanner scan = new Scanner(System.in);
 		System.out.print("Nhap n: ");
 		int n = scan.nextInt();
 
@@ -35,7 +35,7 @@ public class UsePhanSo {
 
 		for (int i = 0; i < n; i++) {
 			PhanSo temp = new PhanSo();
-			temp.nhapPhanSo();
+			temp.nhapPhanSo(scan);
 			list.add(temp);
 			total = total.cong(temp);
 			if (!max.lonHon(temp))

@@ -16,13 +16,13 @@ public class Diem {
 		this.y = y;
 	}
 
-	public void nhapDiem() {
-		Scanner scan = new Scanner(System.in);
+	public void nhapDiem(Scanner scan) {
+	
 		System.out.print("Enter x: ");
-		x = scan.nextInt();
+		this.x = scan.nextInt();
 		System.out.print("Enter y: ");
-		y = scan.nextInt();
-		scan.close();
+		this.y = scan.nextInt();
+
 	}
 
 	public void hienThi() {
